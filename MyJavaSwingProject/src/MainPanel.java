@@ -1,18 +1,16 @@
 import javax.swing.*;
-import java.awt.*;
 
-public class MainPanel extends JPanel {
-    JButton button;
-    JTextField textField;
+public class MyFrame extends JFrame {
 
-    MainPanel() {
-        setLayout(new FlowLayout());
+    public MyFrame() {
+        setTitle("My App");
+        setSize(600, 500);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
 
-        button = new JButton("Click me!");
-        add(button);
+        // Add main application panel
+        add(new MainPanel());
 
-        textField = new JTextField(15);
-        add(textField);
-
+        setVisible(true);
     }
 }

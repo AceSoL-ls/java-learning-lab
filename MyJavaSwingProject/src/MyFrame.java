@@ -1,15 +1,24 @@
 import javax.swing.*;
+import java.awt.*;
 
-public class MyFrame extends JFrame {
-    MyFrame() {
-        setTitle("MyApp");
-        setSize(600, 400);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);
+public class MainPanel extends JPanel {
 
-        add(new MainPanel());
+    // UI component declarations
+    private JButton button;
+    private JTextField textField;
 
-        setVisible(true);
+    // Initializes panel layout and UI components
+    public MainPanel() {
+        setLayout(new FlowLayout());
 
+        textField = new JTextField(15);
+        add(textField);
+
+        button = new JButton("Click me");
+        add(button);
+
+        button.addActionListener(e ->
+                System.out.println(textField.getText()) // Print text to console on click
+        );
     }
 }
