@@ -18,4 +18,4 @@ This is an active learning repository.
 Code quality and structure improve over time.
 
 ## Author
-Junior developer learning Java step by step.
+Euripides Laliotis (AceSoL)
