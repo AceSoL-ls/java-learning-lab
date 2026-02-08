@@ -10,9 +10,11 @@ public class MyFrame extends JFrame  {
     public MyFrame() throws HeadlessException {
 
         button = new JButton();
-        button.setBounds(200, 100, 100, 50);
+        button.setBounds(200, 100, 250, 100);
         // Lamda expression practise instead of tradition beginner way!
         button.addActionListener(e -> System.out.println("Yo thats a lamda expression!"));
+        button.setText("This is a button");
+        button.setFocusable(false);
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
