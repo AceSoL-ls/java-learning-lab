@@ -20,6 +20,7 @@ public class MyFrame extends JFrame  {
         button.setIcon(icon);
         button.setHorizontalTextPosition(JButton.CENTER);
         button.setVerticalTextPosition(JButton.BOTTOM);
+        button.setFont(new Font("Comic Sans", Font.BOLD,25));
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
