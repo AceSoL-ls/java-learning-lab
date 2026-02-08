@@ -11,6 +11,7 @@ public class MyFrame extends JFrame implements ActionListener {
 
         new JButton();
         button.setBounds(200, 100, 100, 50);
+        button.addActionListener(this);
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
