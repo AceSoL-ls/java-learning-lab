@@ -6,10 +6,14 @@ import java.awt.event.ActionListener;
 public class MyFrame extends JFrame  {
 
     JButton button;
+    JLabel label;
 
     public MyFrame() throws HeadlessException {
 
         ImageIcon icon = new ImageIcon("Emoji.png");
+        ImageIcon icon2 = new ImageIcon("ok-emoji.png");
+
+        label = new JLabel();
 
         button = new JButton();
         button.setBounds(200, 100, 250, 100);
@@ -33,6 +37,7 @@ public class MyFrame extends JFrame  {
         this.setSize(600, 600);
         this.setVisible(true);
         this.add(button);
+        this.add(label);
     }
     /*
     @Override
