@@ -5,10 +5,11 @@ import java.awt.event.ActionListener;
 
 public class MyFrame extends JFrame implements ActionListener {
 
-    JButton button = new JButton();
+    JButton button;
 
     public MyFrame() throws HeadlessException {
 
+        new JButton();
         button.setBounds(200, 100, 100, 50);
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
