@@ -18,6 +18,8 @@ public class MyFrame extends JFrame  {
         button.setText("This is a button");
         button.setFocusable(false);
         button.setIcon(icon);
+        button.setHorizontalTextPosition(JButton.CENTER);
+        button.setVerticalTextPosition(JButton.BOTTOM);
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
