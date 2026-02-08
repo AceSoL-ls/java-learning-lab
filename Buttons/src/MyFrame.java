@@ -25,6 +25,7 @@ public class MyFrame extends JFrame  {
         button.setForeground(Color.GREEN);
         button.setBackground(Color.DARK_GRAY);
         button.setBorder(BorderFactory.createEtchedBorder());
+        //button.setEnabled(false); // If you want to make it unclickable
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
