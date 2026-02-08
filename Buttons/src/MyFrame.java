@@ -9,7 +9,7 @@ public class MyFrame extends JFrame  {
 
     public MyFrame() throws HeadlessException {
 
-        ImageIcon icon = new ImageIcon()
+        ImageIcon icon = new ImageIcon("Emoji.png");
 
         button = new JButton();
         button.setBounds(200, 100, 250, 100);
@@ -17,6 +17,7 @@ public class MyFrame extends JFrame  {
         button.addActionListener(e -> System.out.println("Yo thats a lamda expression!"));
         button.setText("This is a button");
         button.setFocusable(false);
+        button.setIcon(icon);
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
