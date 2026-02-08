@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class MyFrame extends JFrame implements ActionListener {
+public class MyFrame extends JFrame  {
 
     JButton button;
 
@@ -11,7 +11,8 @@ public class MyFrame extends JFrame implements ActionListener {
 
         button = new JButton();
         button.setBounds(200, 100, 100, 50);
-        button.addActionListener(this);
+        // Lamda expression practise instead of tradition beginner way!
+        button.addActionListener(e -> System.out.println("Yo thats a lamda expression!"));
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
@@ -19,12 +20,12 @@ public class MyFrame extends JFrame implements ActionListener {
         this.setVisible(true);
         this.add(button);
     }
-
+    /*
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource()==button) {
             System.out.println("Bro thats craaz");
-        }
+        } */
 
-    }
+
 }
