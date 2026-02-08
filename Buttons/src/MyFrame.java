@@ -21,10 +21,13 @@ public class MyFrame extends JFrame  {
         button.setHorizontalTextPosition(JButton.CENTER);
         button.setVerticalTextPosition(JButton.BOTTOM);
         button.setFont(new Font("Comic Sans", Font.BOLD,25));
+        button.setIconTextGap(-15);
+        button.setForeground(Color.GREEN);
+        button.setBackground(Color.DARK_GRAY);
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
-        this.setSize(500, 500);
+        this.setSize(600, 600);
         this.setVisible(true);
         this.add(button);
     }
