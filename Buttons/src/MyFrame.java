@@ -21,7 +21,7 @@ public class MyFrame extends JFrame implements ActionListener{
         button = new JButton();
         button.setBounds(100, 100, 250, 100);
         // Lamda expression practise instead of tradition beginner way!
-        button.addActionListener(e -> System.out.println("Yo thats a lamda expression!"));
+        //button.addActionListener(e -> System.out.println("Yo thats a lamda expression!"));
         button.setText("This is a button");
         button.setFocusable(false);
         button.setIcon(icon);
