@@ -9,6 +9,8 @@ public class MyFrame extends JFrame  {
 
     public MyFrame() throws HeadlessException {
 
+        ImageIcon icon = new ImageIcon()
+
         button = new JButton();
         button.setBounds(200, 100, 250, 100);
         // Lamda expression practise instead of tradition beginner way!
