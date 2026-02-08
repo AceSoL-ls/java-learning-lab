@@ -14,9 +14,11 @@ public class MyFrame extends JFrame  {
         ImageIcon icon2 = new ImageIcon("ok-emoji.png");
 
         label = new JLabel();
+        label.setIcon(icon2);
+        label.setBounds(150, 250, 150, 150);
 
         button = new JButton();
-        button.setBounds(200, 100, 250, 100);
+        button.setBounds(100, 100, 250, 100);
         // Lamda expression practise instead of tradition beginner way!
         button.addActionListener(e -> System.out.println("Yo thats a lamda expression!"));
         button.setText("This is a button");
