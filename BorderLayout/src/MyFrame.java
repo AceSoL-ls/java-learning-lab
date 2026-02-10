@@ -25,6 +25,9 @@ public class MyFrame extends JFrame {
         panel5.setBackground(Color.blue);
 
         this.add(panel1, BorderLayout.NORTH);
-        this.add(panel1, BorderLayout.NORTH);
+        this.add(panel2, BorderLayout.WEST);
+        this.add(panel3, BorderLayout.EAST);
+        this.add(panel4, BorderLayout.SOUTH);
+        this.add(panel5, BorderLayout.CENTER);
     }
 }
