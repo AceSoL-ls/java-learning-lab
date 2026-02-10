@@ -6,10 +6,10 @@ public class MyFrame extends JFrame {
     JPanel panel = new JPanel();
 
     MyFrame(){
-        this.setSize(600,600);
+        this.setSize(500,500);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new BorderLayout());
-        this.pack();
+        //this.pack(); <--- Disabled
         this.setVisible(true);
 
         JPanel panel1 = new JPanel();
