@@ -64,10 +64,5 @@ public class MyFrame extends JFrame {
         panel5.add(panel9,BorderLayout.EAST);
         panel5.add(panel10,BorderLayout.CENTER);
 
-        this.add(panel6, BorderLayout.NORTH);
-        this.add(panel7, BorderLayout.WEST);
-        this.add(panel8, BorderLayout.EAST);
-        this.add(panel9, BorderLayout.SOUTH);
-        this.add(panel10, BorderLayout.CENTER);
     }
 }
