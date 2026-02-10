@@ -48,13 +48,21 @@ public class MyFrame extends JFrame {
         panel7.setBackground(Color.gray);
         panel8.setBackground(Color.lightGray);
         panel9.setBackground(Color.darkGray);
-        panel10.setBackground(Color.WHITE);
+        panel10.setBackground(Color.white);
 
-        panel6.setPreferredSize(new Dimension(100,100));
-        panel7.setPreferredSize(new Dimension(100,100));
-        panel8.setPreferredSize(new Dimension(100,100));
-        panel9.setPreferredSize(new Dimension(100,100));
-        panel10.setPreferredSize(new Dimension(100,100));
+        panel5.setLayout(new BorderLayout());
+
+        panel6.setPreferredSize(new Dimension(50,50));
+        panel7.setPreferredSize(new Dimension(50,50));
+        panel8.setPreferredSize(new Dimension(50,50));
+        panel9.setPreferredSize(new Dimension(50,50));
+        panel10.setPreferredSize(new Dimension(50,50));
+
+        panel5.add(panel6,BorderLayout.NORTH);
+        panel5.add(panel7,BorderLayout.SOUTH);
+        panel5.add(panel8,BorderLayout.WEST);
+        panel5.add(panel9,BorderLayout.EAST);
+        panel5.add(panel10,BorderLayout.CENTER);
 
         this.add(panel6, BorderLayout.NORTH);
         this.add(panel7, BorderLayout.WEST);
