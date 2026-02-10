@@ -35,5 +35,31 @@ public class MyFrame extends JFrame {
         this.add(panel3, BorderLayout.EAST);
         this.add(panel4, BorderLayout.SOUTH);
         this.add(panel5, BorderLayout.CENTER);
+
+        //-----------SUB PANELS-----------//
+
+        JPanel panel6 = new JPanel();
+        JPanel panel7 = new JPanel();
+        JPanel panel8 = new JPanel();
+        JPanel panel9 = new JPanel();
+        JPanel panel10 = new JPanel();
+
+        panel6.setBackground(Color.red);
+        panel7.setBackground(Color.green);
+        panel8.setBackground(Color.yellow);
+        panel9.setBackground(Color.magenta);
+        panel10.setBackground(Color.blue);
+
+        panel6.setPreferredSize(new Dimension(100,100));
+        panel7.setPreferredSize(new Dimension(100,100));
+        panel8.setPreferredSize(new Dimension(100,100));
+        panel9.setPreferredSize(new Dimension(100,100));
+        panel10.setPreferredSize(new Dimension(100,100));
+
+        this.add(panel6, BorderLayout.NORTH);
+        this.add(panel7, BorderLayout.WEST);
+        this.add(panel8, BorderLayout.EAST);
+        this.add(panel9, BorderLayout.SOUTH);
+        this.add(panel10, BorderLayout.CENTER);
     }
 }
