@@ -8,6 +8,7 @@ public class MyFrame extends JFrame {
     MyFrame(){
         this.setSize(600,600);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setLayout(new BorderLayout());
         this.pack();
         this.setVisible(true);
 
@@ -22,5 +23,8 @@ public class MyFrame extends JFrame {
         panel3.setBackground(Color.yellow);
         panel4.setBackground(Color.magenta);
         panel5.setBackground(Color.blue);
+
+        this.add(panel1, BorderLayout.NORTH);
+        this.add(panel1, BorderLayout.NORTH);
     }
 }
