@@ -44,11 +44,11 @@ public class MyFrame extends JFrame {
         JPanel panel9 = new JPanel();
         JPanel panel10 = new JPanel();
 
-        panel6.setBackground(Color.red);
-        panel7.setBackground(Color.green);
-        panel8.setBackground(Color.yellow);
-        panel9.setBackground(Color.magenta);
-        panel10.setBackground(Color.blue);
+        panel6.setBackground(Color.black);
+        panel7.setBackground(Color.gray);
+        panel8.setBackground(Color.lightGray);
+        panel9.setBackground(Color.darkGray);
+        panel10.setBackground(Color.WHITE);
 
         panel6.setPreferredSize(new Dimension(100,100));
         panel7.setPreferredSize(new Dimension(100,100));
