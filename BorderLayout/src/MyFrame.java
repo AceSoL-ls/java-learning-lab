@@ -25,10 +25,10 @@ public class MyFrame extends JFrame {
         panel5.setBackground(Color.blue);
 
         panel1.setPreferredSize(new Dimension(100,100));
-        panel1.setPreferredSize(new Dimension(100,100));
-        panel1.setPreferredSize(new Dimension(100,100));
-        panel1.setPreferredSize(new Dimension(100,100));
-        panel1.setPreferredSize(new Dimension(100,100));
+        panel2.setPreferredSize(new Dimension(100,100));
+        panel3.setPreferredSize(new Dimension(100,100));
+        panel4.setPreferredSize(new Dimension(100,100));
+        panel5.setPreferredSize(new Dimension(100,100));
 
         this.add(panel1, BorderLayout.NORTH);
         this.add(panel2, BorderLayout.WEST);
