@@ -10,9 +10,9 @@ public class MyFrame extends JFrame {
         this.setSize(500,500);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setBackground(Color.lightGray);
-        this.setLayout(new FlowLayout(FlowLayout.CENTER));
+        this.setLayout(new FlowLayout());
 
-        label.setSize(150,200);
+        label.setSize(350,400);
         label.setLayout(new FlowLayout());
         //----- Buttons Here ------//
         label.add(new JButton("1"));
@@ -24,7 +24,8 @@ public class MyFrame extends JFrame {
         label.add(new JButton("7"));
         label.add(new JButton("8"));
 
-
+        this.add(button);
+        this.add(label);
         this.setVisible(true);
     }
 }
