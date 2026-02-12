@@ -16,13 +16,13 @@ public class MyFrame extends JFrame {
         label.setLayout(new FlowLayout());
         //----- Buttons Here ------//
         label.add(new JButton("1"));
-        label.add(new JButton("1"));
-        label.add(new JButton("1"));
-        label.add(new JButton("1"));
-        label.add(new JButton("1"));
-        label.add(new JButton("1"));
-        label.add(new JButton("1"));
-        label.add(new JButton("1"));
+        label.add(new JButton("2"));
+        label.add(new JButton("3"));
+        label.add(new JButton("4"));
+        label.add(new JButton("5"));
+        label.add(new JButton("6"));
+        label.add(new JButton("7"));
+        label.add(new JButton("8"));
 
 
         this.setVisible(true);
