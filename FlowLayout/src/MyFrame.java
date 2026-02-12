@@ -3,29 +3,29 @@ import java.awt.*;
 
 public class MyFrame extends JFrame {
 
-    JLabel label = new JLabel();
+    JPanel panel = new JPanel();
     JButton button = new JButton();
 
     public MyFrame() throws HeadlessException {
         this.setSize(500,500);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setBackground(Color.lightGray);
-        this.setLayout(new FlowLayout());
+        this.setLayout(new FlowLayout(FlowLayout.CENTER));
 
-        label.setSize(350,400);
-        label.setLayout(new FlowLayout());
+        panel.setSize(350,400);
+        panel.setLayout(new FlowLayout());
         //----- Buttons Here ------//
-        label.add(new JButton("1"));
-        label.add(new JButton("2"));
-        label.add(new JButton("3"));
-        label.add(new JButton("4"));
-        label.add(new JButton("5"));
-        label.add(new JButton("6"));
-        label.add(new JButton("7"));
-        label.add(new JButton("8"));
+        panel.add(new JButton("1"));
+        panel.add(new JButton("2"));
+        panel.add(new JButton("3"));
+        panel.add(new JButton("4"));
+        panel.add(new JButton("5"));
+        panel.add(new JButton("6"));
+        panel.add(new JButton("7"));
+        panel.add(new JButton("8"));
 
         this.add(button);
-        this.add(label);
+        this.add(panel);
         this.setVisible(true);
     }
 }
