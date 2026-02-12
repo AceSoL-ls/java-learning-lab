@@ -17,6 +17,12 @@ public class MyFrame extends JFrame {
         //----- Buttons Here ------//
         label.add(new JButton("1"));
         label.add(new JButton("1"));
+        label.add(new JButton("1"));
+        label.add(new JButton("1"));
+        label.add(new JButton("1"));
+        label.add(new JButton("1"));
+        label.add(new JButton("1"));
+        label.add(new JButton("1"));
 
 
         this.setVisible(true);
