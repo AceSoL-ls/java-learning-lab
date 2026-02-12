@@ -10,6 +10,9 @@ public class MyFrame extends JFrame {
         this.setSize(500,500);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setBackground(Color.lightGray);
+        this.setLayout(new FlowLayout(FlowLayout.CENTER));
+
+        label.setSize(150,200);
 
 
         this.setVisible(true);
