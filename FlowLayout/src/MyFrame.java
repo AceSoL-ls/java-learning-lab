@@ -28,7 +28,6 @@ public class MyFrame extends JFrame {
         panel.add(new JButton("8"));
         panel.add(new JButton("9"));
 
-        this.add(button);
         this.add(panel);
         this.setVisible(true);
     }
