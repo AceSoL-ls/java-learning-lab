@@ -13,6 +13,10 @@ public class MyFrame extends JFrame {
         this.setLayout(new FlowLayout(FlowLayout.CENTER));
 
         label.setSize(150,200);
+        label.setLayout(new FlowLayout());
+        //----- Buttons Here ------//
+        label.add(new JButton("1"));
+        label.add(new JButton("1"));
 
 
         this.setVisible(true);
