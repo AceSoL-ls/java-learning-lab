@@ -10,8 +10,7 @@ public class MyFrame extends JFrame {
         this.setSize(500,500);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.getContentPane().setBackground(Color.lightGray);
-
-        this.setLayout(new FlowLayout(FlowLayout.CENTER));
+        this.setLayout(new FlowLayout(FlowLayout.CENTER,10,10));
 
         panel.setSize(250,300);
         panel.setLayout(new FlowLayout());
