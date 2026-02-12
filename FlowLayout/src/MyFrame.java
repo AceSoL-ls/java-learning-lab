@@ -1,5 +1,13 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class MyFrame extends JFrame {
-    ne
+
+    JLabel label = new JLabel();
+    JButton button = new JButton();
+
+    public MyFrame() throws HeadlessException {
+
+    }
 }
+
