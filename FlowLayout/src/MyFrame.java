@@ -9,11 +9,15 @@ public class MyFrame extends JFrame {
     public MyFrame() throws HeadlessException {
         this.setSize(500,500);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setBackground(Color.lightGray);
+        this.getContentPane().setBackground(Color.lightGray);
+
         this.setLayout(new FlowLayout(FlowLayout.CENTER));
 
-        panel.setSize(350,400);
+        panel.setSize(250,300);
         panel.setLayout(new FlowLayout());
+        panel.setBackground(Color.DARK_GRAY);
+        panel.setOpaque(true);
+
         //----- Buttons Here ------//
         panel.add(new JButton("1"));
         panel.add(new JButton("2"));
