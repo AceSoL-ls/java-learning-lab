@@ -12,8 +12,8 @@ public class MyFrame extends JFrame {
         this.getContentPane().setBackground(Color.lightGray);
         this.setLayout(new FlowLayout(FlowLayout.CENTER,10,10));
 
-        panel.setSize(250,300);
-        panel.setLayout(new FlowLayout());
+        panel.setPreferredSize(new Dimension(250,250));
+        panel.setLayout(new FlowLayout(FlowLayout.CENTER));
         panel.setBackground(Color.DARK_GRAY);
         panel.setOpaque(true);
 
