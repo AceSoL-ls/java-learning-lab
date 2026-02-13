@@ -10,7 +10,7 @@ public class MyFrame extends JFrame {
         this.setLayout(new GridLayout(3,3));
 
         panel.setPreferredSize(new Dimension(250,250));
-        
+
 
         panel.add(new JButton("1"));
         panel.add(new JButton("2"));
