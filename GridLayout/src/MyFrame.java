@@ -11,7 +11,7 @@ public class MyFrame extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         panel.setPreferredSize(new Dimension(250,250));
-        panel.setLayout(new GridLayout(3,3));
+        panel.setLayout(new GridLayout(3,3,10,10));
 
         panel.add(new JButton("1"));
         panel.add(new JButton("2"));
