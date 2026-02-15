@@ -15,6 +15,9 @@ public class MyFrame extends JFrame {
         this.setLayout(null);
 
         layeredPane.setBounds(0,0,500,500);
+        layeredPane.add(label1, Integer.valueOf(0));
+        layeredPane.add(label2, Integer.valueOf(2));
+        layeredPane.add(label3, Integer.valueOf(1));
 
         label1.setOpaque(true);
         label1.setBackground(Color.red);
