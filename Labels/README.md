@@ -1,1 +1,1 @@
-Simple practise of Label components and methods.
+Simple practise of JLabel components and its useful methods.
