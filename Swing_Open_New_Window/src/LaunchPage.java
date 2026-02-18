@@ -17,11 +17,16 @@ public class LaunchPage implements ActionListener {
         frame.setSize(420,420);
         frame.setLayout(null);
         frame.setVisible(true);
+        frame.add(button);
 
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        if (e.getSource()==button) {
+
+            NewWindow myWindow = new NewWindow();
+        }
 
     }
 }
