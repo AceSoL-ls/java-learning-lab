@@ -5,18 +5,32 @@ import java.awt.event.ActionListener;
 
 public class MyFrame extends JFrame implements ActionListener {
 
+    JButton button;
+    JCheckBox checkBox;
+
     MyFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
 
-        JCheckBox checkBox = new JCheckBox();
+        button = new JButton();
+        button.setText("Submit");
+        button.addActionListener(this);
 
+        checkBox = new JCheckBox();
+        checkBox.setText("Are You a human?");
+        checkBox.setFocusable(false);
+        checkBox.setFont(new Font("Consolas", Font.PLAIN, 35));
+
+        this.add(checkBox);
+        this.add(button);
         this.pack();
         this.setVisible(true);
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-
+        if(e.getSource()==button){
+            System.out.println(checkBox.isSelected());
+        }
     }
 }
